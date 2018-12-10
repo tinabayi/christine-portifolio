@@ -4,18 +4,39 @@
     padding: 60px;
     text-align: center;
 }
-
-
 nav a{
     text-decoration: underline;
     color:blue;
     margin-left:500px;
     font-family: sans-serif;
-    font-size: 30px
+    font-size: 30px;
+    
 }
 nav a:hover {
     background-color:blue;
     color:black;
+}
+#aboutMe{
+    
+    text-align: center;
+    border: 2px solid black;
+    padding:6px;
+    margin:20px;
+}
+#end{
+
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
+    color:black;
+}
+html{
+    background-color: rgb(100,105,112);
+    color:white;
+    
+}
+img{
+    border-radius: 120px;
 }
 
 
