@@ -15,4 +15,19 @@ Christine BAYIZERE
 This project describe who I am
 and my path carrier
 ~~~
-###project setup instructions
+##project setup instructions
+~~~
+To clone this repo to your desktop,first install Visual Studio Code 
+setup for editing codes,then have Google or Mozila to run it
+~~~
+## link to live site on GitHub Pages
+~~~
+~~~
+##copyright and license information
+~~~
+This project is licensed under the MIT License - see the LICENSE.md file for details
+~~~
+
+
+
+

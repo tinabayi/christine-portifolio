@@ -65,9 +65,9 @@ main{
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 100px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 30%;
   }
