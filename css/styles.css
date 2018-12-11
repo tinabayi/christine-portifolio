@@ -1,4 +1,15 @@
 
+
+
+
+
+
+/*putting background-color on htmlpage*/
+html{
+    background-color: rgb(100,105,112);
+    color:white;
+    
+}
 /* making shadow of my name*/
 #shadow{
     text-shadow: 2px 2px 5px blue;
@@ -20,19 +31,7 @@ nav a:hover {
 }
 
 
-#end{
 
-    background-color: white;
-    border-radius: 20px;
-    padding:20px;
-    color:black;
-}
-/*putting background-color on htmlpage*/
-html{
-    background-color: rgb(100,105,112);
-    color:white;
-    
-}
 img{
     border-radius: 1300px;
     margin-left: 400px;
@@ -49,9 +48,26 @@ main{
 }
 .one,.two,.three{
     
-    margin:20px; 
+    margin:50px; 
      flex-wrap:wrap;
 
 }
+/*Styling footer*/
+#end{
 
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
+    color:black;
     
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
