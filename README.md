@@ -1,17 +1,17 @@
-#Projec name
+# Projec name
 ~~~
 independent-project
 ~~~
-##author name
+## author name
 ~~~
 Christine BAYIZERE
 ~~~
-##description of project
+## description of project
 ~~~
 This project describe who I am
 and my path carrier
 ~~~
-##project setup instructions
+## project setup instructions
 ~~~
 To clone this repo to your desktop,first install Visual Studio Code 
 setup for editing codes,then have Google or Mozila to run it
@@ -20,7 +20,7 @@ setup for editing codes,then have Google or Mozila to run it
 ~~~
 https://github.com/tinabayi/independent-project
 ~~~
-##copyright and license information
+## copyright and license information
 ~~~
 This project is licensed under the MIT License - see the LICENSE.md file for details
 ~~~
