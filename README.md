@@ -22,6 +22,8 @@ setup for editing codes,then have Google or Mozila to run it
 ~~~
 ## link to live site on GitHub Pages
 ~~~
+https://github.com/tinabayi/independent-project
+
 ~~~
 ##copyright and license information
 ~~~
