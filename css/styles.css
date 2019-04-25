@@ -6,7 +6,7 @@
 
 /*putting background-color on htmlpage*/
 html{
-    background-color: rgb(100,105,112);
+    background-color:white;
     color:white;
     
 }
@@ -19,11 +19,12 @@ html{
 }
 nav a{
     text-decoration: underline;
-    color:white;
+    color:black;
     margin-left:100px;
     font-family: sans-serif;
     font-size: 20px;
-    
+    font-family: 'Pacifico', cursive;
+ 
 }
 nav a:hover {
     background-color:white;
@@ -33,7 +34,7 @@ nav a:hover {
 
 
 img{
-    border-radius: 1300px;
+    /* border-radius: 1300px; */
     margin-left: 400px;
 }
 .paragraphe{
@@ -111,4 +112,20 @@ main{
   }
 .kk{
     color: blue;
+}
+#first{
+    background-image: url("https://images.pexels.com/photos/2148217/pexels-photo-2148217.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 800px;
+    padding-top: 30px;
+}
+.one{
+    margin-left: 350px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.two{
+    font-family: 'Lobster', cursive;
+    margin-left: 350px;  
 }
