@@ -1,141 +1,50 @@
 
-
-
-
-
-
-/*putting background-color on htmlpage*/
-html{
-    background-color:white;
-    color:black;
-    
-}
-/* making shadow of my name*/
-#shadow{
-    text-shadow: 2px 2px 5px blue;
-    font-size: 34px;
-    padding: 60px;
-    text-align: center;
-}
-nav a{
-    text-decoration: underline;
-    color:black;
-    margin-left:100px;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-family: 'Pacifico', cursive;
- 
-}
-nav a:hover {
-    background-color:white;
-    color:blue;
-}
-
-
-
-img{
-    /* border-radius: 1300px; */
-    margin-left: 400px;
-}
-.paragraphe{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-/*doing flex of background*/
-main{
-    display: flex;
-  
-}
-.one,.two,.three{
-    
-    margin:50px; 
-     flex-wrap:wrap;
-
-}
-/*Styling footer*/
-#end{
-
-    background-color: white;
-    border-radius: 20px;
-    padding:20px;
-    color:black;
-    font-family: sans-serif;
-    
-    
-}
-
-
-.fa {
-    padding: 20px;
-    font-size: 100px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 30%;
-  }
-  
-.fa:hover {
-    opacity: 0.7;
-  }
-  
-
-  
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-.fa:hover {
-    opacity: 0.7;
-  }
-  
-  
-  
-
-  .fa-yahoo {
-    background: #3B5998;
-    color: white;
-  }
-  
-  
-  .fa-linkedin {
-    background: #55ACEE;
-    color: white;
-  }
-.kk{
-    color: blue;
-}
-#first{
-    background-image: url("http://wallpapercraft.site/uploads/posts/images/1469495-free-desktop-laptop-asus-wallpaper.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 300px;
-    padding-top: 20px;
+.first{
+  background-image:url("https://www.vactualpapers.com/web/wallpapers/0013-pexels-photo11/1920x1200.jpg");
+  height: 900px;;   
 }
 .one{
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 400px;
-   
-    margin-top: 300px;
-    font-size: 60px;
-    color:blue;
-
+  margin-left: 250px;
+  padding-top: 350px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  color:white;
 }
 .two{
-    font-family: 'Josefin Sans', sans-serif; 
-    margin-left: 500px;
-    margin-top: 200px;
-    font-size: 60px;
-    color:blue;  
+  margin-left: 350px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: white;
 }
-.name{
-  font-family: 'Lobster', cursive;
+.quiz{
+  display: none;
+}
+.search{
+  display: none; 
+}
+.quote{
+  display: none;  
+}
+.gallery{
+  display: none;  
+}
+.blog{
+  display: none;  
+}
+.news{
+  display: none;  
+}
+#about img{
+  border-radius: 200px;
+  margin-left: 40px;
+}
+.about{
+  font-family: 'Courier New', Courier, monospace;
+}
+p.round3{
+  border: 2px solid black;
+  border-radius: 12px;
+}
+#contact{
+  background-color: lightslategrey;
 }

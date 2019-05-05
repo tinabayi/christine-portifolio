@@ -1,86 +1,217 @@
 <!DOCTYPE html>
  <html>
   <head>
+   <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+   <script src="js/scripts.js"></script>
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>BAYIZERE Christine</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
    </head>
+
    <body>
+      <div class="container">
+       <div class="row"> 
         <nav>
                 <a href="#aboutMe">About Me</a>
                 <a href="#project">Projects</a>
                 <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
              </nav>
-       <div id="first">
-      
-        <!--Make shadow of my name-->
-       
-        <p class="one">Hello, I am <span class="name">BAYIZERE Christine</span></p>
-        <p class="two">I am software developper</p>
-      </div>
-       
-
-     
-            
-        <h1>Projects </h1>
+       <div class="first">
+          <p class="one">Hello, I am BAYIZERE Christine</p>
+          <p class="two">Software Developper</p>
+        </div>
+        </div>
+      <div class="row"> 
+       <div id="about">
+         <h2>About Me</h2>
+         <div class="col-md-6">
+           <img id="chrisine" src="image/christine1.jpg" height="250px" width="280px">
+         </div>
+         <div class="col-md-6">
+          <p class="about">Am a self motivated Java and Android developer Looking for a 
+            junior developer job.Am always pushing myself to grow by setting 
+            firm goals for myself. Then, once I've defined the benchmarks, I take the 
+            necessary steps to achieve those milestones.</p>
+          </div>
+         </div>
+       </div>
+       <div class="row"> 
         <div id="project">
-        <h3>Github-Search Project</h3>
-        <img src="image/github search.png" height="250" width="250">
-        <P>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  v8.x:
-        this project contain a form where user can enter his username in case he click the search button he will see all information about
-        repositories,followers,following,name,profile photo.</P>
-        <a href="https://tinabayi.github.io/Github-Search/">View Project</a>
-
-        <h3>This is Gallery project</h3> 
-        
-        <img src="image/gallery.png" height="250" width="250" >
-        <P>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  v8.x:
-        this project contain a form where user can enter his username in case he click the search button he will see all information about
-        repositories,followers,following,name,profile photo.</P>
-        <a href="https://photoschristine.herokuapp.com/">View Project</a>
-        <div id="skills">
-        <h3>Quiz Board project</h3> 
-        
+        <h1>Projects </h1>
+        <div class="col-md-4">
         <img src="image/quiz.png" height="250" width="250" >
-        <P>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  v8.x:
-        this project contain a form where user can enter his username in case he click the search button he will see all information about
-        repositories,followers,following,name,profile photo.</P>
-        <a href="https://tinabayi.github.io/quiz-board/">View Project</a>
-
-        <h3>Blogs</h3> 
-        
-        <img src="image/blog.png" height="250" width="250" >
-        <P>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  v8.x:
-        this project contain a form where user can enter his username in case he click the search button he will see all information about
-        repositories,followers,following,name,profile photo.</P>
-        <a href="https://tinabayi.github.io/quiz-board/">View Project</a>
-
+        <h2>view project</h2>
+        <div class="quiz">
+        <h3>Quiz Board</h3>
+        <p>This an application that help to give online 
+          multiple questions. them after answering them 
+          you obtain your scores immediately.</p>
+        <a href="https://tinabayi.github.io/quiz-board/">Quiz Board Project</a>
+        <h3>Technologies used</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Boostrap</li>
+            <li>Javascripts</li>
+            <li>jquery</li>
+            <a href="https://github.com/tinabayi/quiz-board">Link to github</a>
+          </ul>
         </div>
-            <h2>Skills</h2>
-            <ul>
-                <li><img src="image/html logo.png>"</li>
-                <li><img src="css logo.jpeg></li>
-                <li>Javascripts</li>
-                <li>Python</li>
-                <li>Boostrap</li>
-              
+        </div>
+
+        <div class="col-md-4">
+        <img src="image/github search.png" height="250" width="250">
+        <h2>View project</h2>
+        <div class="search">
+          <h3>Github Search</h3>
+          <p>This an application to put username  
+            and get information about an account
+          of anyone with githubaccount</p>
+          <a href="https://tinabayi.github.io/Github-Search/">github search project</a>
+          <h3>Technologies used</h3>
+          <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Boostrap</li>
+              <li>Javascripts</li>
+              <li>Angular Js</li>
+              <a href="https://github.com/tinabayi/Github-Search">Link to github</a>
             </ul>
-            </div>
-            <h2>Contacts</h2>
-        <div id="contact">
-              
-                <p><span class="kk">Email:bayizerechristine4@gmail.com </span></p>
-                <a href="#" class="fa fa-github"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-yahoo"></a>
         </div>
-        <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-   </body>
- </html>
+      </div>
+
+      <div class="col-md-4">
+          <img src="image/quote vote.png" height="250" width="250">
+          <h2>view project </h2>
+          <div class="quote">
+          <h3>Quotes Votes</h3>
+          <p>This an application that enableuser to vote  
+            any quote on his/her choise.  
+            </p>
+          <a href="https://tinabayi.github.io/Quotes-Votes/">Quotes Votes Project</a>
+          <h3>Technologies used</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Boostrap</li>
+              <li>Javascripts</li>
+              <li>Angular JS</li>
+              <a href="https://github.com/tinabayi/Quotes-Votes">Link to github</a>
+            </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+          <img src="image/news.png" height="250" width="250" >
+          <h2>view project </h2>
+          <div class="news">
+          <h3>Quotes Votes</h3>
+          <p>This an application that enableuser to vote  
+            any quote on his/her choise.  
+            </p>
+          <a href="https://tinabayi.github.io/Quotes-Votes/">Quotes Votes Project</a>
+          <h3>Technologies used</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Boostrap</li>
+              <li>Javascripts</li>
+              <li>Angular JS</li>
+              <a href="https://github.com/tinabayi/Quotes-Votes">Link to github</a>
+            </ul> 
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="image/gallery.png" height="250" width="250" >
+        <h2>view project </h2>
+        <div class="gallery">
+        <h3>Gaallery</h3>
+        <p>This an application that enableuser to vote  
+          any quote on his/her choise.  
+          </p>
+        <a href="https://tinabayi.github.io/Quotes-Votes/">Quotes Votes Project</a>
+        <h3>Technologies used</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Boostrap</li>
+            <li>Javascripts</li>
+            <li>Angular JS</li>
+            <a href="https://github.com/tinabayi/Quotes-Votes">Link to github</a>
+          </ul>
+      </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="image/blog.png" height="250" width="250" >
+        <h2>view project </h2>
+        <div class="blog">
+        <h3>Blogs</h3>
+        <p>This an application that enableuser to vote  
+          any quote on his/her choise.  
+          </p>
+        <a href="https://tinabayi.github.io/Quotes-Votes/">Quotes Votes Project</a>
+        <h3>Technologies used</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Boostrap</li>
+            <li>Javascripts</li>
+            <li>Angular JS</li>
+            <a href="https://github.com/tinabayi/Quotes-Votes">Link to github</a>
+          </ul>
+      </div>
+    </div>
+     ,</div>
+     <div class="row"> 
+        <div id="Skills">
+    <h2>Skills</h2>
+    <div class="col-md-12">
+    <h3>JAVASCRIPT &JQUER</h3>
+    <p>I made appications in Javascript for both desktop and tablets.
+    Ican build user friendly applications from star to finish.</p>
+    <h3>HTML&CSS</h3>
+    <p>Those are the most Skills that I am using . I use HTML&CSS everytime 
+     I set out to build an application</p>
+    <h3>BOOSTRAP</h3>
+    <p> I always using this front end framework to build responsive.This framework help
+     me styling very quickly and easyly</p>
+    <h3>PYTHON</h3>
+      <p>Python is programming language that I regulary used for building backend 
+      of many applications .I have done many applications using Flask famework
+       and Dango frame
+      work of Python.</p> 
+    </div>
+    <div class="col-md-12">
+      <img src="image/javscript.jpeg">
+      <img src="image/html.png">
+      <img src="image/Boostrap.jpeg">
+      <img src="image/python.png">
+      <img src="image/django-logo.png">
+      <img src="image/flask.png">
+     
+      </div>
+            </div>
+            </div>
+            <div class="row"> 
+            <div id="contact">
+            <h3>Get in touch</h3>
+       
+              <p>Phone:+250784463499</p>
+              <p>Email:bayizerechristine4@gmail.com </p>
+              <div class="col-md-4">
+               <p class="round3"><img src="linkden.png" height="50px" width="60px"></p>
+              </div>
+                <div class="col-md-4">
+                <p class="round3"><a href="https://github.com/tinabayi?tab=repositories">GITHUB</a></p>
+                </div> 
+              </div> 
+              </div>
+           </div>
+            </div>
+        </div>
+      
+     </body>
+   </html>
