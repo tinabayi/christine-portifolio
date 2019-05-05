@@ -86,3 +86,25 @@ p.round3{
   margin-left: 100px;
   font-size: 40px;
 }
+#quiz{
+  display: none;
+}
+#search{
+  display: none;
+}
+#quote{
+  display: none;
+}
+#news{
+  display: none;
+}
+#gallery{
+  display: none;
+}
+#blog{
+  display: none;
+}
+.clickable1{
+  font-weight: bold;
+  font-size: 20px;
+}
