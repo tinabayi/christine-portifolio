@@ -1,6 +1,7 @@
 
 .first{
   background-image:url("https://www.vactualpapers.com/web/wallpapers/0013-pexels-photo11/1920x1200.jpg");
+  background-size: cover;
   height: 900px;;   
 }
 .one{
