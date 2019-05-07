@@ -1,4 +1,9 @@
-
+nav{
+  
+  background-color: black;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
 .first{
   background-image:url("https://www.vactualpapers.com/web/wallpapers/0013-pexels-photo11/1920x1200.jpg");
   background-size: cover;
@@ -6,7 +11,7 @@
 }
 .one{
   margin-left: 250px;
-  padding-top: 350px;
+  padding-top: 200px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
   color:white;
@@ -71,22 +76,7 @@ p.round3{
   font-weight: bold;
   font-size: 40px;  
 }
-.p1,.p2,.p3,.p4{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
-  margin-left: 40px;
-}
-.j,.c,.b,.p{
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  margin-left: 100px;
 
-}
-.contact{
-  font-weight: bold;
-  margin-left: 100px;
-  font-size: 40px;
-}
 #quiz{
   display: none;
 }
@@ -109,3 +99,5 @@ p.round3{
   font-weight: bold;
   font-size: 20px;
 }
+
+
