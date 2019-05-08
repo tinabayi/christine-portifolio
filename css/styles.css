@@ -1,9 +1,20 @@
 nav{
-  
+  color:white;
   background-color: black;
   padding: 20px;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding-left: 20px;
 }
+
+nav a{
+  color:white;
+  margin:20px;
+}
+
+
+
+
 .first{
   background-image:url("https://www.vactualpapers.com/web/wallpapers/0013-pexels-photo11/1920x1200.jpg");
   background-size: cover;
@@ -78,18 +89,31 @@ nav{
   text-decoration:underline;
 }
 .contact{
-  margin-left: 350px;
-  padding-bottom: 40px;
+ 
   padding-top: 40px;
-  font-weight: bold;
-  font-size: 50x;
-  text-decoration:underline; 
+  background-color: darkgrey;
+}
+.f1{
+  margin-left: 200px;
+}
+.touch{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 600px;
+  color:white;
+  font-size: 30px;
+  font-weight: bolder;
 }
 .phone{
-  margin-left: 100px;
+  margin-left: 400px;
+  color:white;
+  font-size: 25px;
 }
 .email{
-  margin-left: 100px;
+  margin-left: 400px;
+  color:white;
+  font-size: 25px;
+  padding-bottom: 40px;
 }
 
 #quiz{
@@ -113,6 +137,7 @@ nav{
 .clickable1{
   font-weight: bold;
   font-size: 15px;
+  
 }
 .clickable2{
   font-weight: bold;
@@ -131,19 +156,32 @@ nav{
   font-weight: bold;
   font-size: 15px;
 }
-.fa {
-  padding: 80px;
-  font-size: 40px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  box-sizing: border-box;
-  color: black;
+.clickable6{
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.important{
+  background-color: whitesmoke;
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color:black;
+  
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
 }
-
+ .a1{
+   
+  margin-left: 400px;
+  padding-bottom: 50px
+}
+.a2{
+  margin-left: 200px;
+  padding-bottom: 50px
+}
+.a3{
+  margin-left: 100px;
+  padding-bottom: 50px
+}
