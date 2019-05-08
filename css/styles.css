@@ -44,37 +44,52 @@ nav{
   border-radius: 200px;
   margin-left: 150px;
 }
+#aboutMe{
+  padding-top: 40px; 
+}
 .about1{
-  margin-left: 300px;
+ 
   padding-bottom: 40px;
   padding-top: 40px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 27x;
+  text-decoration:underline; 
 }
 .about{
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
 .project{
-  margin-left: 250px;
-  padding-bottom: 50px;
-  padding-top: 50px; 
+  margin-left: 350px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 27x;
+  text-decoration:underline;
 }
-button{
-  margin-left: 40px;
-}
-p.round3{
-  border: 2px solid black;
-  border-radius: 12px;
-}
+
+
 .skills{
-  margin-left: 200px;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  margin-left: 350px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   font-weight: bold;
-  font-size: 40px;  
+  font-size: 27x;
+  text-decoration:underline;
+}
+.contact{
+  margin-left: 350px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 50x;
+  text-decoration:underline; 
+}
+.phone{
+  margin-left: 100px;
+}
+.email{
+  margin-left: 100px;
 }
 
 #quiz{
@@ -97,7 +112,38 @@ p.round3{
 }
 .clickable1{
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
+}
+.clickable2{
+  font-weight: bold;
+  font-size: 15px;
 }
 
+.clickable3{
+  font-weight: bold;
+  font-size: 15px;
+}
+.clickable4{
+  font-weight: bold;
+  font-size: 15px;
+}
+.clickable5{
+  font-weight: bold;
+  font-size: 15px;
+}
+.fa {
+  padding: 80px;
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
 
